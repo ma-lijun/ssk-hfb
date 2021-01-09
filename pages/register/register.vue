@@ -133,7 +133,7 @@
 					}
 				}, 1000);
 			},
-			async toLogin() {
+			async toRegister() {
 				if (!this.isPhone(this.mobile)) {
 					this.$http.toast("请输入正确的手机号");
 					return
